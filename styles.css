@@ -1,0 +1,77 @@
+/* Estilos para el sitio web */
+
+/* Navbar */
+body {
+    font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"sans-serif;
+}
+
+.navbar {
+    background-color: #2A6970 !important;
+}
+
+/* Sección principal */
+.container {
+    background-color: #3D1F2F;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container2 {
+    
+    padding: 20px;
+    margin-top: 20px;
+}
+/* Invitación y miniaturas de cursos */
+.parrafo{
+    color: #FFFFFF;	
+}
+.card {
+    margin-bottom: 0px;
+    
+    /*margin: 0 auto;*/
+}
+.card-img-top {
+            width: 100%;
+            height: 200px; /* Altura fija para las imágenes */
+            object-fit: cover; /* Asegura que la imagen se ajuste al área definida */
+        }
+            
+.card-button {
+    background-color: #00B2BD;
+    border-color: #00B2BD;
+    width: fit-content;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.footer {
+    width: 100%;
+    background-color: #2B2B2B;
+    padding: 20px 0;
+    color: #ffffff;
+}
+
+.footer .container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .container2 h5 {
+
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer .container2 .social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Ajusta este valor para el espacio deseado entre los botones */
+    margin-top: 10px;
+}
+/*
+.footer .container2 a {
+
+    margin: 5px;
+}*/
